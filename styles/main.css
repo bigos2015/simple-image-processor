@@ -1,4 +1,16 @@
 body {
-    background-color: #F2F2F2;
+     background-image: url(../images/BrickMessy0215_1_M.jpg);
     font-family: sans-serif;
+
+}
+
+.source-image {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    filter: blur(50px);
+}
+
+.source-image {
+box-shadow: 2px 3px 6pc
 }
