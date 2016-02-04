@@ -1,7 +1,6 @@
 body {
      background-image: url(../images/BrickMessy0215_1_M.jpg);
-    font-family: sans-serif;
-
+    background-color: #F4f32;
 }
 
 .source-image {
@@ -13,4 +12,35 @@ body {
 
 .source-image {
 box-shadow: 2px 3px 6pc
+}
+
+.button {
+    background-color: rgb(255, 18, 18);
+    width: 45px;
+    border: 0;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.83);
+    background-image: url(../images/cropp-button.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    bottom: 75px;
+    right: 90px;
+    transition: all 100ms;
+    outline: 0;
+}
+
+.button:hover {
+    margin-right: -5px;
+    margin-bottom: -5px;
+    width: 55px;
+    height: 55px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.5);
+}
+
+.button:active {
+    bottom: 81px;
+    transition: all 150ms;
 }
