@@ -20,4 +20,5 @@ body {
 
 .step.active {
     left: 0;
+    background-color: aquamarine;
 }
