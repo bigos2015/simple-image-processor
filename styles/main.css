@@ -1,11 +1,10 @@
 body {
     background-image: url(../images/BrickMessy0215_1_M.jpg);
     background-color: rgb(255, 255, 255);
-    margin:0;
+    margin: 0;
     font-family: "Shadows Into Light", sans-serif;
     color: rgba(255, 255, 255, 0.8);
 }
-
 .source-image {
     width: 600px;
     display: block;
@@ -13,7 +12,6 @@ body {
     filter: blur(50px);
     box-shadow: 2px 3px 60px black;
 }
-
 h1 {
     color: rgb(255, 255, 255);
     font-size: 26px;
@@ -30,7 +28,6 @@ h1 {
     margin-right: -20px;
     position: relative;
 }
-
 .button {
     background-color: rgb(255, 18, 18);
     width: 45px;
@@ -48,7 +45,6 @@ h1 {
     transition: all 100ms;
     outline: 0;
 }
-
 .button:hover {
     margin-right: -5px;
     margin-bottom: -5px;
@@ -56,7 +52,6 @@ h1 {
     height: 55px;
     box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.5);
 }
-
 .button:active {
     bottom: 81px;
     transition: all 150ms;
