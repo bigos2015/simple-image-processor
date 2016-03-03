@@ -1,14 +1,9 @@
 body {
-
-  background-color: rgb(255, 255, 255);
-  margin:0;
-
-  font-family: "Shadows Into Light", sans-serif;
-
-  text-shadow: 10 1 9px
-  color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Shadows Into Light", sans-serif;
+    text-shadow: 10 1 9px color: rgba(255, 255, 255, 0.3);
 }
-
 h1 {
     color: rgb(255, 255, 255);
     font-size: 26px;
@@ -24,9 +19,6 @@ h1 {
     margin-left: -20px;
     margin-right: -20px;
 }
-
-
-
 .button {
     background-color: rgb(255, 18, 18);
     width: 45px;
@@ -44,7 +36,6 @@ h1 {
     transition: all 100ms;
     outline: 0;
 }
-
 .button:hover {
     margin-right: -5px;
     margin-bottom: -5px;
@@ -52,8 +43,8 @@ h1 {
     height: 55px;
     box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.5);
 }
-
 .button:active {
     bottom: 81px;
     transition: all 150ms;
 }
+head {}
