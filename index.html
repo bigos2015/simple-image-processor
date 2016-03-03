@@ -9,18 +9,26 @@
 </head>
 
 <body>
-
     <header class="top-bar">
         <h1>Simple Image Processor</h1>
     </header>
 
     <div class="container">
         <section class="step intro">
+            <form id=image-selector-form>
+
+                <div class="image-selctor">
+                    <label for="url">PUT URL OF THE IMAGE CROP:</label>
+                    <input type="url" name="url" id="url" placeholder="SIEMA" title="co tam ?" />
+                    <input class="submit-button" type="submit" value="OK" />
+
+                </div>
+            </form>
 
         </section>
 
         <section class="step cropping">
-            <img class="source-image" src=https://images.unsplash.com/photo-1430651717504-ebb9e3e6795e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2f05d41e59b349313fdf09c041a768af alt="source image to be cropped">
+            <img class="image-to-crop" src="https://images.unsplash.com/photo-1430651717504-ebb9e3e6795e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2f05d41e59b349313fdf09c041a768af" alt="source image to be cropped">
             <button class="button"></button>
         </section>
 
@@ -28,6 +36,7 @@
 
         </section>
     </div>
+    <script src="scripts/loading.js"></script>
 </body>
 
 </html>
