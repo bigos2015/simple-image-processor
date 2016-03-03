@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/BrickMessy0215_1_M.jpg);
+    background-color: rgb(255, 255, 255);
+    margin:0;
+    font-family: "Shadows Into Light", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.source-image {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    filter: blur(50px);
+    box-shadow: 2px 3px 60px black;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background-color: rgb(69, 183, 226);
+    background-position: center;
+    height: 65px;
+    background-attachment: scroll;
+    background-size: contain;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.6);
+    margin-left: -20px;
+    margin-right: -20px;
+    position: relative;
+}
+
+.button {
+    background-color: rgb(255, 18, 18);
+    width: 45px;
+    border: 0;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.83);
+    background-image: url(../images/cropp-button.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    bottom: 75px;
+    right: 90px;
+    transition: all 100ms;
+    outline: 0;
+}
+
+.button:hover {
+    margin-right: -5px;
+    margin-bottom: -5px;
+    width: 55px;
+    height: 55px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.5);
+}
+
+.button:active {
+    bottom: 81px;
+    transition: all 150ms;
+}
