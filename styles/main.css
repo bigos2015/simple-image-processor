@@ -31,16 +31,16 @@ body {
     top: -8.5px;
 }
 .image-container .cropping-area .handle.rt {
-    left: -7.5px;
+    right: -7.5px;
     top: -8.5px;
 }
 .image-container .cropping-area .handle.rb {
-    left: -7.5px;
-    top: -7.5px;
+    right: -7.5px;
+    bottom: -7.5px;
 }
 .image-container .cropping-area .handle.lb {
     left: -7.5px;
-    top: -7.5px;
+    bottom: -7.5px;
 }
 .cropping-area {
     width: 200px;
