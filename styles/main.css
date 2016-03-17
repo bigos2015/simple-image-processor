@@ -9,6 +9,8 @@ body {
     width: 800px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
+    box-shadow: 2px 3px 30px black;
 }
 .image-container .cropping-area {
     height: 200px;
@@ -17,6 +19,8 @@ body {
     position: absolute;
     top: 200px;
     left: 30px;
+    border: 10000px solid rgb (0, 0, 0, 0.4);
+    transform: translate(-10000px, -10000px);
 }
 .image-container .cropping-area .handle {
     margin: 5px;
