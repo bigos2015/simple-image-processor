@@ -9,6 +9,8 @@ body {
     width: 800px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
+    box-shadow: 2px 3px 60px black;
 }
 .image-container .cropping-area {
     width: 200px;
@@ -17,6 +19,8 @@ body {
     position: absolute;
     top: 200px;
     left: 30px;
+    border: 10000px solid rgba(0, 0, 0, 0.4);
+    transform: translate(-10000px, -10000px);
 }
 .image-container .cropping-area .handle {
     margin: 5px;
@@ -47,7 +51,6 @@ body {
     width: 100%;
     display: block;
     filter: blur(50px);
-    box-shadow: 2px 3px 60px black;
 }
 h1 {
     color: rgb(255, 255, 255);
