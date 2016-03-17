@@ -17,10 +17,11 @@ body {
     height: 100px;
     border: 1px dashed black;
     position: absolute;
-    top: 200px;
+    top: 300px;
     left: 30px;
-    border: 10000px solid rgba(0, 0, 0, 0.4);
-    transform: translate(-10000px, -10000px);
+    cursor: move;
+    /*    border: 10000px solid rgba(0, 0, 0, 0.4);*/
+    /*    transform: translate(-10000px, -10000px);*/
 }
 .image-container .cropping-area .handle {
     margin: 5px;
@@ -51,6 +52,8 @@ body {
     width: 100%;
     display: block;
     filter: blur(50px);
+    user-select: none;
+    -webkit-user-select: none;
 }
 h1 {
     color: rgb(255, 255, 255);
