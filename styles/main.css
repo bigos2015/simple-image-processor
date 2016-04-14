@@ -49,6 +49,7 @@ body {
     position: absolute;
     top: 100px;
     left: 30px;
+    cursor: move;
 }
 .image-to-crop {
     width: 100%;
