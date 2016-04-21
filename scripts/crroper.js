@@ -1,5 +1,12 @@
 var cropper = document.querySelector('.cropping-area');
-cropper.addEventListener('mousedown', function () {
+var cropperContainer = document.querySelector('.image-container');
+var dragOffsetX;
+var drafOffsetY;
+cropper.addEventListener('mousedown', function (event) {
+    event.preventDefault();
+    var cropperPosition = cropper.getBoundingClientRect();
+    dragOffsetX = event.clientX - cropperPosition.left;
+    dragOffsetY = event.clientY - cropperPosition.top;
     document.addEventListener('mousemove', moveArea);
 });
 document.addEventListener('mouseup', function (event) {
@@ -8,5 +15,7 @@ document.addEventListener('mouseup', function (event) {
 });
 
 function moveArea() {
-    console.info('coś');
+    var containerPosition = cropperContainer.getBoundingClientRect();
+    cropper.style.left = event.clientX - dragOffsetX - containerPosition.left + 'px';
+    cropper.style.top = event.clientY - dragOffsetY - containerPosition.top + 'px';
 }
