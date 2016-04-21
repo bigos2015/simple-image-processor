@@ -1,5 +1,5 @@
 var cropper = document.querySelector('.cropping-area');
-var corrperContainer = document.querySelector('.image-container');
+var cropperContainer = document.querySelector('.image-container');
 var dragOffsetX;
 var dragOffsetY;
 
@@ -16,7 +16,7 @@ document.addEventListener('mouseup', function () {
 });
 
 function moveArea(event) {
-    var containerPosition = corrperContainer.getBoundingClientRect();
+    var containerPosition = cropperContainer.getBoundingClientRect();
     cropper.style.left = event.clientX - dragOffsetX - containerPosition.left + 'px';
     cropper.style.top = event.clientY - dragOffsetY - containerPosition.top + 'px';
 }
