@@ -25,13 +25,13 @@ function moveArea(event) {
 
     cropper.style.left = cropperX + 'px';
     cropper.style.top = cropperY + 'px';
-}
 
-function calculateCropperX(containerPosition, mouseX) {
-    return mouseX - dragOffsetX - containerPosition.left;
-}
 
-function calculateCropperY(containerPosition, mouseY) {
-    return mouseY - dragOffsetY - containerPosition.top;
+    function calculateCropperX(containerPosition, mouseX) {
+        return mouseX - dragOffsetX - containerPosition.left;
+    }
 
-}
+    function calculateCropperY(containerPosition, mouseY) {
+        return mouseY - dragOffsetY - containerPosition.top;
+
+    }
