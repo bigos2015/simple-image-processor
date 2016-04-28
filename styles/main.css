@@ -19,6 +19,7 @@ body {
     position: absolute;
     top: 200px;
     left: 30px;
+    cursor: move
     /*    border: 10000px solid rgba(0, 0, 0, 0.4);*/
     /*    transform: translate(-10000px, -10000px);*/
 }
