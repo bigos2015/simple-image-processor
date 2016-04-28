@@ -22,6 +22,8 @@ function moveArea(event) {
 
     cropperX = Math.max(cropperX, 0);
     cropperY = Math.max(cropperY, 0);
+    cropperX = Math.min(cropperX, container width);
+    cropperY = Math.min(cropperY, );
 
     cropper.style.left = cropperX + 'px';
     cropper.style.top = cropperY + 'px';
