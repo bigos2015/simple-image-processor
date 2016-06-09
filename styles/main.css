@@ -77,7 +77,6 @@ body {
 .image-container .image-to-crop {
     width: 100%;
     display: block;
-    filter: blur(50px);
     user-select: none;
     -webkit-user-select: none;
 }
