@@ -54,18 +54,22 @@ body {
 .image-container .cropping-area .handle.lt {
     left: -8.5px;
     top: -8.5px;
+    cursor: nwse-resize;
 }
 .image-container .cropping-area .handle.rt {
     right: -7.5px;
     top: -8.5px;
+    cursor: nesw-resize;
 }
 .image-container .cropping-area .handle.rb {
     right: -7.5px;
     bottom: -7.5px;
+    cursor: nwse-resize;
 }
 .image-container .cropping-area .handle.lb {
     left: -8.5px;
     bottom: -7.5px;
+    cursor: nesw-resize;
 }
 
 /* ------ image container  */
